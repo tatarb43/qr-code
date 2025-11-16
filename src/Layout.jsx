@@ -12,10 +12,10 @@ export const Layout = ()=>{
             <Navigation />
 
             <Routes>
-                <Route path="/generate" element={<QrGeneretor />}/>
-                <Route path="/scan" element={<QrScanner />}/>
-                <Route path="/generateHistory" element={<GenerateHistory />}/>
-                <Route path="/scanHistory" element={<ScannerHistory />}/>
+                <Route path="/qr-code/generate" element={<QrGeneretor />}/>
+                <Route path="/qr-code/scan" element={<QrScanner />}/>
+                <Route path="/qr-code/generateHistory" element={<GenerateHistory />}/>
+                <Route path="/qr-code/scanHistory" element={<ScannerHistory />}/>
             </Routes>
         </>
             
