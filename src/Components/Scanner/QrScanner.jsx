@@ -31,6 +31,8 @@ export const QrScanner = () => {
                 onError={(error) => console.log(error?.message)}
                 components={ settings }
                 styles={{container: {width: '500px', height: '500px',}}}
+                constraints={{
+                    facingMode: 'environment'}}
             />
             {QrText !== '' && <p className={style.result}>QR code scanned! {QrText}</p>}
         </div>
