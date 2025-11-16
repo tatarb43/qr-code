@@ -30,6 +30,7 @@ export const QrScanner = () => {
     return (
         <div className={style.container}>
         <QrReader
+            constraints={{ facingMode: 'environment' }}
             scanDelay={1500}
             onResult={scanHandler}
             containerStyle={{ width: '500px' }}
