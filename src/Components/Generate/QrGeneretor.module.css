@@ -1,0 +1,24 @@
+.input {
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #7d4427;
+    color: white;
+}
+
+.btns {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #7d4427;
+    color: whitesmoke;
+}

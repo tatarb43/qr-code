@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 225px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.link {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: whitesmoke;
+    font-size: 25px;
+}
