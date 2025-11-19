@@ -22,3 +22,15 @@
     background-color: #7d4427;
     color: whitesmoke;
 }
+
+@media (max-width: 1000px) {
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}

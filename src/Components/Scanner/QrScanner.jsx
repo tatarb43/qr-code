@@ -18,7 +18,7 @@ export const QrScanner = () => {
         setQrText(result.text)
 
         localStorage.setItem(SCAN_DATA, JSON.stringify([...prevData, result.text]))   //[] потому что нам нужно хранить массив того что отсканировали а не 1 строку
-        //JSON.stringify превращает массив в строку для хранения в localStorage тк он работает торлько со строками
+        //JSON.stringify превращает массив в строку для хранения в localStorage тк он работает только со строками
     }
 
     const settings = { 

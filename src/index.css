@@ -8,3 +8,9 @@
     background-color: #18191B;
     font-family: 'Press Start 2P', cursive;
 }
+
+@media (max-width: 600px) {
+    * {
+        font-size: 10px;
+    }
+}

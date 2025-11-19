@@ -2,7 +2,7 @@ import { QrGeneretor } from "./Components/Generate/QrGeneretor.jsx"
 import { QrScanner } from "./Components/Scanner/QrScanner.jsx"
 import { Navigation } from './Components/Nav/Navigation.jsx';
 import { Routes, Route} from "react-router-dom";
-import { GenerateHistory } from "./Components/GenerateHistory.jsx";
+import { GenerateHistory } from "./Components/GenerateHis/GenerateHistory.jsx";
 import { ScannerHistory } from "./Components/ScannerHistory.jsx";
 
 

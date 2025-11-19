@@ -13,3 +13,18 @@
     color: whitesmoke;
     font-size: 25px;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .link {
+        outline: none;
+        text-decoration: none;
+        padding: 2px 1px 0;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+}
